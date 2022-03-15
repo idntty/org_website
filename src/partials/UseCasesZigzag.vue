@@ -1,13 +1,12 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20 border-t border-gray-800">
+      <div class="py-12 md:py-20 pt-32 md:pt-40">
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <div class="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-          <h1 class="h2 mb-4">One product, unlimited solutions</h1>
-          <p class="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+          <h1 class="h2 mb-4">When digital business moving forvard</h1>
+          <p class="text-xl text-gray-400">Identity and public key infrastructure helps individuals and business deliver secure digital journeys</p>
         </div>
 
         <!-- Items -->
@@ -17,32 +16,32 @@
           <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
             <!-- Image -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/features-03-image-01.png" width="540" height="405" alt="Features 01" />
+              <img class="max-w-full mx-auto h-auto" src="../images/use-cases-1.png" width="480" height="360" alt="Use cases 1" />
             </div>
             <!-- Content -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-              <div class="md:pr-4 lg:pr-12 xl:pr-16">
-                <div class="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                <h3 class="h3 mb-3">Keep projects on schedule</h3>
-                <p class="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div>
+                <div class="font-architects-daughter text-xl text-purple-600 mb-2">Identify, authenticate and authorize</div>
+                <h3 class="h3 mb-3">digital ID</h3>
+                <p class="text-xl text-gray-400 mb-4">Unlike a paper-based ID such as most driver’s licenses and passports, a digital ID can be authenticated remotely over digital channels. For example, a digital ID could be issued by a national or local government, by a consortium of private or nonprofit organizations, or by an individual entity.</p>
                 <ul class="text-lg text-gray-400 -mb-2">
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Duis aute irure dolor in reprehenderit</span>
+                    <span>Verified and authenticated to a high degree of assurance</span>
                   </li>
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Excepteur sint occaecat</span>
+                    <span>Protects user privacy and ensures control over personal data</span>
                   </li>
                   <li class="flex items-center">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Amet consectetur adipiscing elit</span>
+                    <span>Established with individual consent</span>
                   </li>
                 </ul>
               </div>
@@ -53,32 +52,32 @@
           <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
             <!-- Image -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:rtl" data-aos="fade-up">
-              <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/features-03-image-02.png" width="540" height="405" alt="Features 02" />
+              <img class="max-w-full mx-auto h-auto" src="../images/use-cases-2.png" width="380" height="352" alt="Use cases 2" />
             </div>
             <!-- Content -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-              <div class="md:pl-4 lg:pl-12 xl:pl-16">
-                <div class="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                <h3 class="h3 mb-3">Keep projects on schedule</h3>
-                <p class="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div>
+                <div class="font-architects-daughter text-xl text-purple-600 mb-2">sign, share and track</div>
+                <h3 class="h3 mb-3">eSign</h3>
+                <p class="text-xl text-gray-400 mb-4">Electronic signatures are a digital representation of an individual’s agreement, which is intended to be the equivalent of a “wet” signature. The dramatic global increase in remote work has increased the need for business-accessible electronic signatures for a variety of use cases, both internal and external (customer, partner or vendor).</p>
                 <ul class="text-lg text-gray-400 -mb-2">
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Duis aute irure dolor in reprehenderit</span>
+                    <span>Faster than paper</span>
                   </li>
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Excepteur sint occaecat</span>
+                    <span>Audit trail preservation</span>
                   </li>
                   <li class="flex items-center">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Amet consectetur adipiscing elit</span>
+                    <span>Identity assurance</span>
                   </li>
                 </ul>
               </div>
@@ -89,32 +88,32 @@
           <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
             <!-- Image -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/features-03-image-03.png" width="540" height="405" alt="Features 03" />
+              <img class="max-w-full mx-auto h-auto" src="../images/use-cases-3.png" width="640" height="480" alt="Use cases 3" />
             </div>
             <!-- Content -->
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-              <div class="md:pr-4 lg:pr-12 xl:pr-16">
-                <div class="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                <h3 class="h3 mb-3">Keep projects on schedule</h3>
-                <p class="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div>
+                <div class="font-architects-daughter text-xl text-purple-600 mb-2">Integrate local to global</div>
+                <h3 class="h3 mb-3">Data notary</h3>
+                <p class="text-xl text-gray-400 mb-4">Electronic Data Interchange is the concept electronic interchange of business information using a standardized format; a process which allows one company to send information to another company electronically rather than with paper, such as purchase orders and invoices. Idntty infrastructure makes it possible not only to implement this concept, but also to ensure the legal significance and traceability of the data exchanged between companies.</p>
                 <ul class="text-lg text-gray-400 -mb-2">
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Duis aute irure dolor in reprehenderit</span>
+                    <span>Create and implement your own exchange schemes</span>
                   </li>
                   <li class="flex items-center mb-2">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Excepteur sint occaecat</span>
+                    <span>Ensure the legal relevance and traceability of the data you exchange</span>
                   </li>
                   <li class="flex items-center">
                     <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Amet consectetur adipiscing elit</span>
+                    <span>API enablement in decentralized infrastructure</span>
                   </li>
                 </ul>
               </div>
@@ -130,6 +129,6 @@
 
 <script>
 export default {
-  name: 'FeaturesZigzag'
+  name: 'UseCasesZigzag'
 }
 </script>

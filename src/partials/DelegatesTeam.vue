@@ -5,8 +5,8 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos-id-testimonialcar>
-          <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-testimonialcar]">Join the Open PRO team</h2>
-          <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonialcar]">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus in ornare.</p>
+          <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-testimonialcar]">Join the idntty delegates team</h2>
+          <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonialcar]">Deploy your own node and become a member of the network to increase its decentralization and receive tokens for it</p>
         </div>
 
         <!-- Check list -->
@@ -17,35 +17,21 @@
                 <circle class="fill-current text-green-500" cx="12" cy="12" r="12" />
                 <path class="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
               </svg>
-              <span>Work Life Balance</span>
+              <span>Easy installation</span>
             </li>
             <li class="flex items-center mx-3 my-2" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-testimonialcar]">
               <svg class="w-6 h-6 mr-3 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <circle class="fill-current text-green-500" cx="12" cy="12" r="12" />
                 <path class="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
               </svg>
-              <span>Competitive Salary And Equity</span>
+              <span>Low cost to run the node</span>
             </li>
             <li class="flex items-center mx-3 my-2" data-aos="fade-up" data-aos-delay="600" data-aos-anchor="[data-aos-id-testimonialcar]">
               <svg class="w-6 h-6 mr-3 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <circle class="fill-current text-green-500" cx="12" cy="12" r="12" />
                 <path class="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
               </svg>
-              <span>5 Weeks Paid Vacation</span>
-            </li>
-            <li class="flex items-center mx-3 my-2" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-testimonialcar]">
-              <svg class="w-6 h-6 mr-3 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <circle class="fill-current text-green-500" cx="12" cy="12" r="12" />
-                <path class="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
-              </svg>
-              <span>Generous Gear Credit</span>
-            </li>
-            <li class="flex items-center mx-3 my-2" data-aos="fade-up" data-aos-delay="800" data-aos-anchor="[data-aos-id-testimonialcar]">
-              <svg class="w-6 h-6 mr-3 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <circle class="fill-current text-green-500" cx="12" cy="12" r="12" />
-                <path class="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
-              </svg>
-              <span>Diversity and Inclusion</span>
+              <span>Low competition</span>
             </li>
           </ul>
         </div>
@@ -131,7 +117,7 @@ import Image02 from '../images/world-user-02.jpg'
 import Image03 from '../images/world-user-03.jpg'
 
 export default {
-  name: 'TestimonialsCarousel',
+  name: 'DelegatesTeam',
   data: function () {
     return {
       active: 0,
@@ -158,15 +144,15 @@ export default {
           quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
           name: 'Dominik Prasad',
           role: 'Backend Lead'
-        }        
+        }
       ]
     }
   },
   methods: {
     stopAutorotate() {
       clearInterval(this.autorotateInterval)
-    }  
-  },    
+    }
+  },
   mounted() {
     if (this.autorotate) {
         this.autorotateInterval = setInterval(() => {
@@ -176,6 +162,6 @@ export default {
   },
   beforeUnmount() {
     this.stopAutorotate()
-  }    
+  }
 }
 </script>

@@ -19,64 +19,171 @@
       <div class="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h1 class="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-          <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-          <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div data-aos="fade-up" data-aos-delay="400">
-              <a class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="600">
-              <a class="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-            </div>            
-          </div>
+        <div class="max-w-3xl mx-auto text-center pb-8" data-aos-id-hero-tabs>
+          <h1 class="h1 mb-4" data-aos="fade-up">Identity and public key infrastructure</h1>
+          <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">We made every part of private data management and digital signatures better with simple solution for end users, business, and developers.</p>
         </div>
 
-        <!-- Hero image -->
+        <!-- Section content -->
         <div>
-          <div class="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-            <img class="mx-auto" src="../images/hero-image-01.jpg" width="1024" height="504" alt="Hero" />
-            <a class="absolute group" @click.prevent.stop="videoModalOpen = true" href="#0" aria-controls="modal">
-              <svg class="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient x1="78.169%" y1="9.507%" x2="24.434%" y2="90.469%" id="a">
-                    <stop stop-color="#EBF1F5" stop-opacity=".8" offset="0%" />
-                    <stop stop-color="#EBF1F5" offset="100%" />
-                  </linearGradient>
-                </defs>
-                <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                <path class="fill-current text-purple-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
+
+          <!-- Tabs buttons -->
+          <div class="flex flex-wrap justify-center -m-2" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-hero-tabs]">
+            <button :class="{ 'opacity-50': tab !== '1' }" class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500" @click="tab = '1'">
+              <svg class="w-4 h-4 fill-current text-purple-600 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z" />
               </svg>
-            </a>
+              <span class="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Individuals & SMB</span>
+            </button>
+            <button :class="{ 'opacity-50': tab !== '2' }" class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500" @click="tab = '2'">
+              <svg class="w-4 h-4 fill-current text-purple-600 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 10c-1.1 0-2-.9-2-2 0-.2 0-.3.1-.5L3.6 5 5 3.6l2.5 2.5c.2-.1.3-.1.5-.1 1.1 0 2 .9 2 2s-.9 2-2 2z" />
+              </svg>
+              <span class="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Web 3 Ambassadors</span>
+            </button>
+            <button :class="{ 'opacity-50': tab !== '3' }" class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500" @click="tab = '3'">
+              <svg class="w-4 h-4 fill-current text-purple-600 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.936 6.007H8.358l1.594-4.685c.3-.997-.897-1.794-1.694-.997L.284 8.3c-.598.598-.199 1.694.698 1.694H7.56l-1.594 4.685c-.3.997.897 1.794 1.694.997L15.633 7.7c.598-.598.2-1.694-.697-1.694z" />
+              </svg>
+              <span class="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Large enterprise</span>
+            </button>
           </div>
 
-          <!-- Modal -->
-          <Modal id="modal" ariaLabel="modal-headline" :show="videoModalOpen" @handleClose="videoModalOpen = false">
-            <div class="relative pb-9/16">
-              <iframe class="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
-            </div>
-          </Modal>
+          <!-- Tabs items -->
+          <div class="relative flex flex-col" data-aos="fade-up">
 
+            <!-- Item 1 -->
+            <transition
+              enter-active-class="transition ease-in-out duration-500 transform order-first"
+              enter-from-class="opacity-0 scale-98"
+              enter-to-class="opacity-100 scale-100"
+              leave-active-class="transition ease-out duration-300 transform absolute"
+              leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-98"
+            >
+              <div class="md:grid md:grid-cols-12 md:gap-6 items-center"  v-show="tab === '1'">
+                <!-- Image -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                  <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/home-hero-features-1.png" width="306" height="562" alt="Features 01" />
+                </div>
+                <!-- Content -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                  <div class="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 class="h3 mb-3">Paperwork, without the paper</h3>
+                    <p class="text-md text-gray-400 mb-4">Instead of using multiple tools or apps you can eSign any document and send them out to your clients for e‑signature all‑in‑one with simple mobile app. No monthly or hidden fees with pay-on-the-go model. The most common documents, signed with eSign below.</p>
+                    <ul class="text-md text-gray-400 -mb-2">
+                      <li class="flex items-center mb-2">
+                        <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                        </svg>
+                        <span>Offer letters</span>
+                      </li>
+                      <li class="flex items-center mb-2">
+                        <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                        </svg>
+                        <span>Sales/rental/lease agreements & contracts</span>
+                      </li>
+                      <li class="flex items-center mb-2">
+                        <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                        </svg>
+                        <span>Healthcare/Financial/Insurance documents</span>
+                      </li>
+                      <li class="flex items-center">
+                        <svg class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                        </svg>
+                        <span>And many more!</span>
+                      </li>
+                    </ul>
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                      <span class="text-sm">Learn more</span>
+                      <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 5H0v2h6v4l6-5-6-5z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </transition>
+            <!-- Item 2 -->
+            <transition
+              enter-active-class="transition ease-in-out duration-500 transform order-first"
+              enter-from-class="opacity-0 scale-98"
+              enter-to-class="opacity-100 scale-100"
+              leave-active-class="transition ease-out duration-300 transform absolute"
+              leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-98"
+            >
+              <div class="md:grid md:grid-cols-12 md:gap-6 items-center"  v-show="tab === '2'">
+                <!-- Image -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                  <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/home-hero-features-2.png" width="481" height="575" alt="Features 02" />
+                </div>
+                <!-- Content -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                  <div class="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 class="h3 mb-3">Be the part of decentralized web</h3>
+                    <p class="text-md text-gray-400 mb-4">DPoS is the mechanism of determining eligible block creators achieved by voting for registered delegate accounts, which are then able to create blocks depending on their vote weight. It is part of the consensus algorithm of a blockchain we use. The delegate weight is an indicator which shows the active support received by a delegate that is present in the network.</p>
+                    <p class="text-md text-gray-400">Deploy your own node and become a delegate in a highly secure and flexible infrastructure to be able to receive votes and increase your weight. Create new blocks and receive delegate fees without using special hardware.</p>
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                      <span class="text-sm">Learn more</span>
+                      <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 5H0v2h6v4l6-5-6-5z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </transition>
+
+            <!-- Item 3 -->
+            <transition
+              enter-active-class="transition ease-in-out duration-500 transform order-first"
+              enter-from-class="opacity-0 scale-98"
+              enter-to-class="opacity-100 scale-100"
+              leave-active-class="transition ease-out duration-300 transform absolute"
+              leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-98"
+            >
+              <div class="md:grid md:grid-cols-12 md:gap-6 items-center"  v-show="tab === '3'">
+                <!-- Image -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                  <img class="max-w-full mx-auto md:max-w-none h-auto" src="../images/home-hero-features-3.png" width="528" height="533" alt="Features 03" />
+                </div>
+                <!-- Content -->
+                <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                  <div class="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 class="h3 mb-3">From physical to digital worlds</h3>
+                    <p class="text-md text-gray-400 mb-4">As the world becomes more digital, digital id is an increasingly important question for businesses and individuals alike. Yet as badly as the world needs a simple way to verify identities, it also needs the process to be fast and easy.</p>
+                    <p class="text-md text-gray-400">Define and implement the organization’s digital identity future with a focus on modernization, enablement, risk reduction and automation. Integrate or create new enterprise products using your existing decentralized digital id and e-signature infrastructure quick and easily.</p>
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                      <span class="text-sm">Learn more</span>
+                      <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 5H0v2h6v4l6-5-6-5z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </transition>
+
+          </div>
         </div>
-
       </div>
-
     </div>
   </section>
 </template>
 
 <script>
-import Modal from './../utils/Modal.vue'
 
 export default {
   name: 'HeroHome',
-  components: {
-    Modal
-  },
   data: function () {
     return {
-      videoModalOpen: false
+      tab: '1'
     }
-  },  
+  },
 }
 </script>

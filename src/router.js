@@ -10,6 +10,8 @@ import Help from './pages/Help.vue'
 import SignIn from './pages/SignIn.vue'
 import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
+import UseCases from './pages/UseCases.vue'
+import Network from './pages/Network.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 
 const routerHistory = createWebHistory()
@@ -29,6 +31,14 @@ const router = createRouter({
     {
       path: '/',
       component: Home
+    },
+    {
+      path: '/use-cases',
+      component: UseCases
+    },
+    {
+      path: '/network',
+      component: Network
     },
     {
       path: '/features',

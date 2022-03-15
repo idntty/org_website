@@ -15,9 +15,7 @@
       <!-- Page sections -->
       <HeroAbout />
       <TeamImages />
-      <Timeline />
       <Team />
-      <TestimonialsCarousel />
       <Career />
       <Clients />
       <Newsletter />
@@ -35,9 +33,7 @@ import Header from './../partials/Header.vue'
 import PageIllustration from '../partials/PageIllustration.vue'
 import HeroAbout from '../partials/HeroAbout.vue'
 import TeamImages from '../partials/TeamImages.vue'
-import Timeline from '../partials/Timeline.vue'
 import Team from '../partials/Team.vue'
-import TestimonialsCarousel from '../partials/TestimonialsCarousel.vue'
 import Career from '../partials/Career.vue'
 import Clients from '../partials/Clients.vue'
 import Newsletter from '../partials/Newsletter.vue'
@@ -50,9 +46,7 @@ export default {
     PageIllustration,
     HeroAbout,
     TeamImages,
-    Timeline,
     Team,
-    TestimonialsCarousel,
     Career,
     Clients,
     Newsletter,

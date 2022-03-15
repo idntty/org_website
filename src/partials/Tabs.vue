@@ -205,6 +205,6 @@ export default {
     return {
       tab: '1'
     }
-  },  
+  },
 }
 </script>

@@ -7,8 +7,13 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link to="/" class="block" aria-label="Cruip">
-            <svg class="w-8 h-8 fill-current text-purple-600" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-              <path d="M31.952 14.751a260.51 260.51 0 00-4.359-4.407C23.932 6.734 20.16 3.182 16.171 0c1.634.017 3.21.28 4.692.751 3.487 3.114 6.846 6.398 10.163 9.737.493 1.346.811 2.776.926 4.262zm-1.388 7.883c-2.496-2.597-5.051-5.12-7.737-7.471-3.706-3.246-10.693-9.81-15.736-7.418-4.552 2.158-4.717 10.543-4.96 16.238A15.926 15.926 0 010 16C0 9.799 3.528 4.421 8.686 1.766c1.82.593 3.593 1.675 5.038 2.587 6.569 4.14 12.29 9.71 17.792 15.57-.237.94-.557 1.846-.952 2.711zm-4.505 5.81a56.161 56.161 0 00-1.007-.823c-2.574-2.054-6.087-4.805-9.394-4.044-3.022.695-4.264 4.267-4.97 7.52a15.945 15.945 0 01-3.665-1.85c.366-3.242.89-6.675 2.405-9.364 2.315-4.107 6.287-3.072 9.613-1.132 3.36 1.96 6.417 4.572 9.313 7.417a16.097 16.097 0 01-2.295 2.275z" />
+            <svg width="91" height="33" viewBox="0 0 91 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.6734 31.0487C18.565 31.0487 22.2973 29.5028 25.0491 26.751C27.8009 23.9992 29.3468 20.2669 29.3468 16.3753C29.3468 12.4837 27.8009 8.75144 25.0491 5.99964C22.2973 3.24785 18.565 1.70191 14.6734 1.7019L14.6734 16.3753L14.6734 31.0487Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.38848V31.0487H9.78227V1.7019H9.56507L0 3.38848Z" fill="white"/>
+              <rect x="48.0732" y="1.677" width="9.78227" height="29.3468" fill="white"/>
+              <rect x="62.7461" y="1.677" width="9.78227" height="29.3468" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M80.7505 1.8167L75.6005 31.0237H85.5336L90.6836 1.8167H80.7505ZM90.9762 0.157616L91.0001 0.0216824L90.9762 0.0174561V0.157616ZM75.3245 32.5886V32.7333L75.2998 32.7289L75.3245 32.5886Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M34.8132 31.0064L29.6386 1.65964H39.5717L44.7464 31.0064H34.8132ZM45.023 32.7158L45.047 32.7116L45.023 32.5756V32.7158ZM29.3467 0.00436038L29.3714 0V0.144605L29.3467 0.00436038Z" fill="white"/>
             </svg>
           </router-link>
         </div>
@@ -19,40 +24,18 @@
           <!-- Desktop menu links -->
           <ul class="flex grow justify-end flex-wrap items-center">
             <li>
-              <router-link to="/features" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Features</router-link>
+              <router-link to="/use-cases" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Use cases</router-link>
             </li>
             <li>
-              <router-link to="/pricing" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</router-link>
+              <router-link to="/network" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Network</router-link>
             </li>
             <li>
               <router-link to="/blog" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</router-link>
             </li>
-            <li>
-              <router-link to="/about" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">About us</router-link>
-            </li>
-            <!-- 1st level: hover -->
-            <Dropdown title="Support">
-              <li>
-                <router-link to="/contact" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">Contact us</router-link>
-              </li>
-              <li>
-                <router-link to="/help" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">Help center</router-link>
-              </li>
-              <li>
-                <router-link to="/404" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">404</router-link>
-              </li>
-            </Dropdown>
           </ul>
 
-          <!-- Desktop sign in links -->
-          <ul class="flex grow justify-end flex-wrap items-center">
-            <li>
-              <router-link to="/signin" class="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</router-link>
-            </li>
-            <li>
-              <router-link to="/signup" class="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">Sign up</router-link>
-            </li>
-          </ul>
+          <!--  -->
+          <ul class="flex grow justify-end flex-wrap items-center"></ul>
 
         </nav>
 
@@ -73,55 +56,25 @@
           <nav id="mobile-nav" ref="mobileNav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" :style="[ mobileNavOpen ? { maxHeight: $refs.mobileNav.scrollHeight + 'px', opacity: 1 } : { maxHeight: 0, opacity: .8 } ]">
             <ul class="bg-gray-800 px-4 py-2">
               <li>
-                <router-link to="/features" class="flex text-gray-300 hover:text-gray-200 py-2">Features</router-link>
+                <router-link to="/use-cases" class="flex text-gray-300 hover:text-gray-200 py-2">Use cases</router-link>
               </li>
               <li>
-                <router-link to="/pricing" class="flex text-gray-300 hover:text-gray-200 py-2">Pricing</router-link>
+                <router-link to="/network" class="flex text-gray-300 hover:text-gray-200 py-2">Network</router-link>
               </li>
               <li>
                 <router-link to="/blog" class="flex text-gray-300 hover:text-gray-200 py-2">Blog</router-link>
               </li>
-              <li>
-                <router-link to="/about" class="flex text-gray-300 hover:text-gray-200 py-2">About us</router-link>
-              </li>
-              <li class="py-2 my-2 border-t border-b border-gray-700">
-                <span class="flex text-gray-300 py-2">Support</span>
-                <ul class="pl-4">
-                  <li>
-                    <router-link to="/contact" class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">Contact us</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/help" class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">Help center</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/404" class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">404</router-link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <router-link to="/signin" class="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</router-link>
-              </li>
-              <li>
-                <router-link to="/signup" class="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">Sign up</router-link>
-              </li>
             </ul>
           </nav>
-
         </div>
-
       </div>
     </div>
   </header>
 </template>
 
 <script>
-import Dropdown from './../utils/Dropdown.vue'
-
 export default {
   name: 'Header',
-  components: {
-    Dropdown
-  },
   data: function () {
     return {
       mobileNavOpen: false
@@ -135,10 +88,10 @@ export default {
     keyPress() {
       if (!this.mobileNavOpen || event.keyCode !== 27) return
       this.mobileNavOpen = false
-    }    
-  },  
+    }
+  },
   mounted() {
-    document.addEventListener('click', this.clickOutside)    
+    document.addEventListener('click', this.clickOutside)
     document.addEventListener('keydown', this.keyPress)
   },
   beforeUnmount() {

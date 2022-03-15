@@ -15,7 +15,7 @@
       <!-- Page sections -->
       <HeroFeatures />
       <Stats />
-      <FeaturesZigzag />
+
       <FeaturesBlocks />
       <CaseStudies />
       <Cta />
@@ -33,7 +33,6 @@ import Header from './../partials/Header.vue'
 import PageIllustration from '../partials/PageIllustration.vue'
 import HeroFeatures from '../partials/HeroFeatures.vue'
 import Stats from '../partials/Stats.vue'
-import FeaturesZigzag from '../partials/FeaturesZigzag.vue'
 import FeaturesBlocks from '../partials/FeaturesBlocks.vue'
 import CaseStudies from '../partials/CaseStudies.vue'
 import Cta from '../partials/Cta.vue'
@@ -46,7 +45,6 @@ export default {
     PageIllustration,
     HeroFeatures,
     Stats,
-    FeaturesZigzag,
     FeaturesBlocks,
     CaseStudies,
     Cta,

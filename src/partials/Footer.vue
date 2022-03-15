@@ -10,13 +10,18 @@
           <div class="md:col-span-4 lg:col-span-5">
             <div class="mb-2">
               <!-- Logo -->
-              <router-link to="/" class="inline-block" aria-label="Cruip">
-                <svg class="w-8 h-8 fill-current text-purple-600" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M31.952 14.751a260.51 260.51 0 00-4.359-4.407C23.932 6.734 20.16 3.182 16.171 0c1.634.017 3.21.28 4.692.751 3.487 3.114 6.846 6.398 10.163 9.737.493 1.346.811 2.776.926 4.262zm-1.388 7.883c-2.496-2.597-5.051-5.12-7.737-7.471-3.706-3.246-10.693-9.81-15.736-7.418-4.552 2.158-4.717 10.543-4.96 16.238A15.926 15.926 0 010 16C0 9.799 3.528 4.421 8.686 1.766c1.82.593 3.593 1.675 5.038 2.587 6.569 4.14 12.29 9.71 17.792 15.57-.237.94-.557 1.846-.952 2.711zm-4.505 5.81a56.161 56.161 0 00-1.007-.823c-2.574-2.054-6.087-4.805-9.394-4.044-3.022.695-4.264 4.267-4.97 7.52a15.945 15.945 0 01-3.665-1.85c.366-3.242.89-6.675 2.405-9.364 2.315-4.107 6.287-3.072 9.613-1.132 3.36 1.96 6.417 4.572 9.313 7.417a16.097 16.097 0 01-2.295 2.275z" />
-                </svg>
+              <router-link to="/" class="inline-block" aria-label="Idntty">
+            <svg width="91" height="33" viewBox="0 0 91 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.6734 31.0487C18.565 31.0487 22.2973 29.5028 25.0491 26.751C27.8009 23.9992 29.3468 20.2669 29.3468 16.3753C29.3468 12.4837 27.8009 8.75144 25.0491 5.99964C22.2973 3.24785 18.565 1.70191 14.6734 1.7019L14.6734 16.3753L14.6734 31.0487Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.38848V31.0487H9.78227V1.7019H9.56507L0 3.38848Z" fill="white"/>
+              <rect x="48.0732" y="1.677" width="9.78227" height="29.3468" fill="white"/>
+              <rect x="62.7461" y="1.677" width="9.78227" height="29.3468" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M80.7505 1.8167L75.6005 31.0237H85.5336L90.6836 1.8167H80.7505ZM90.9762 0.157616L91.0001 0.0216824L90.9762 0.0174561V0.157616ZM75.3245 32.5886V32.7333L75.2998 32.7289L75.3245 32.5886Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M34.8132 31.0064L29.6386 1.65964H39.5717L44.7464 31.0064H34.8132ZM45.023 32.7158L45.047 32.7116L45.023 32.5756V32.7158ZM29.3467 0.00436038L29.3714 0V0.144605L29.3467 0.00436038Z" fill="white"/>
+            </svg>
               </router-link>
             </div>
-            <div class="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+            <div class="text-gray-400">We made every part of private data management and digital signatures better with simple solution for end users, business, and developers.</div>
           </div>
 
           <!-- 2nd, 3rd and 4th blocks -->
@@ -131,7 +136,7 @@
           </ul>
 
           <!-- Copyrights note -->
-          <div class="text-gray-400 text-sm mr-4">&copy; 2020 Open PRO. All rights reserved.</div>
+          <div class="text-gray-400 text-sm mr-4">&copy; 2022 IDNTTY. All rights reserved.</div>
 
         </div>
 

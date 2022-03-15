@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2" data-aos="fade-up">Refreshing news for developers and designers</h2>
+          <h2 class="h2" data-aos="fade-up">Featured blog posts</h2>
         </div>
 
         <!-- Articles list -->
@@ -35,16 +35,6 @@
                 </h3>
               </header>
               <p class="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <footer class="flex items-center mt-4">
-                <a href="#0">
-                  <img class="rounded-full shrink-0 mr-4" src="../images/news-author-01.jpg" width="40" height="40" alt="Author 01" />
-                </a>
-                <div class="font-medium">
-                  <a class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Anastasia Dan</a>
-                  <span class="text-gray-700"> - </span>
-                  <span class="text-gray-500">Jan 17, 2020</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 2nd article -->
@@ -70,16 +60,6 @@
                 </h3>
               </header>
               <p class="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <footer class="flex items-center mt-4">
-                <a href="#0">
-                  <img class="rounded-full shrink-0 mr-4" src="../images/news-author-02.jpg" width="40" height="40" alt="Author 02" />
-                </a>
-                <div class="font-medium">
-                  <a class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Markus Barker</a>
-                  <span class="text-gray-700"> - </span>
-                  <span class="text-gray-500">Jan 12, 2020</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 3rd article -->
@@ -105,16 +85,6 @@
                 </h3>
               </header>
               <p class="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <footer class="flex items-center mt-4">
-                <a href="#0">
-                  <img class="rounded-full shrink-0 mr-4" src="../images/news-author-03.jpg" width="40" height="40" alt="Author 03" />
-                </a>
-                <div class="font-medium">
-                  <a class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Lisa Crockett</a>
-                  <span class="text-gray-700"> - </span>
-                  <span class="text-gray-500">Jan 9, 2020</span>
-                </div>
-              </footer>
             </article>
 
           </div>
