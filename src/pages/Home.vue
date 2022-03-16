@@ -14,7 +14,7 @@
 
       <!-- Page sections -->
       <HeroHome />
-      <FeaturesBlocks/>
+      <FeaturesHome/>
       <GatewayHome />
       <TokenHome />
       <EarlyAccess />
@@ -33,7 +33,7 @@
 import Header from './../partials/Header.vue'
 import PageIllustration from './../partials/PageIllustration.vue'
 import HeroHome from './../partials/HeroHome.vue'
-import FeaturesBlocks from './../partials/FeaturesBlocks.vue'
+import FeaturesHome from './../partials/FeaturesHome.vue'
 import GatewayHome from './../partials/GatewayHome.vue'
 import TokenHome from './../partials/TokenHome.vue'
 import EarlyAccess from './../partials/EarlyAccess.vue'
@@ -47,7 +47,7 @@ export default {
     Header,
     PageIllustration,
     HeroHome,
-    FeaturesBlocks,
+    FeaturesHome,
     GatewayHome,
     TokenHome,
     EarlyAccess,
