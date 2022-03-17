@@ -35,7 +35,7 @@
                   <h4 class="h4 mb-2"><span class="text-pink-500">.</span>For large enterprise</h4>
                   <p class="text-lg text-gray-400">Easy blockchain innovation to create new products. Use your existing decentralized infrastructure to integrate your applications and use the token to legally exchange data with your counterparties.</p>
                 </div>
-                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="https://airtable.com/shrEtAXpQtyfwP98I">
                   <span class="text-sm">Get it</span>
                   <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 5H0v2h6v4l6-5-6-5z" />

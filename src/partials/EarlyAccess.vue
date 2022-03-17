@@ -49,7 +49,7 @@
                 </li>
               </ul>
               <div class="border border-gray-700 p-3 mt-6">
-                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="#0">Get free tokens</a>
+                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="https://airtable.com/shrEtAXpQtyfwP98I">Get free tokens</a>
               </div>
             </div>
             <div class="relative flex flex-col"></div>

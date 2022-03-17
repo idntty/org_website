@@ -14,7 +14,7 @@
 
           <!-- CTA button -->
           <div class="w-full lg:w-1/4 flex justify-center lg:justify-end">
-            <a class="btn text-white bg-purple-600 hover:bg-purple-700" href="#0">Contact us</a>
+            <a class="btn text-white bg-purple-600 hover:bg-purple-700" href="mailto:hello@idntty.org">Contact us</a>
           </div>
 
         </div>

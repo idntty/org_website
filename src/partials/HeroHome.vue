@@ -97,7 +97,7 @@
                         <span>And many more!</span>
                       </li>
                     </ul>
-                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="https://idntty.io">
                       <span class="text-sm">Learn more</span>
                       <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 5H0v2h6v4l6-5-6-5z" />
@@ -127,7 +127,7 @@
                     <h3 class="h3 mb-3">Be the part of decentralized web</h3>
                     <p class="text-md text-gray-400 mb-4">DPoS is the mechanism of determining eligible block creators achieved by voting for registered delegate accounts, which are then able to create blocks depending on their vote weight. It is part of the consensus algorithm of a blockchain we use. The delegate weight is an indicator which shows the active support received by a delegate that is present in the network.</p>
                     <p class="text-md text-gray-400">Deploy your own node and become a delegate in a highly secure and flexible infrastructure to be able to receive votes and increase your weight. Create new blocks and receive delegate fees without using special hardware.</p>
-                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="https://idntty.notion.site/Development-guides-46e94b5496654be6b3b6fe7e4d9a7b0e">
                       <span class="text-sm">Learn more</span>
                       <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 5H0v2h6v4l6-5-6-5z" />
@@ -158,7 +158,7 @@
                     <h3 class="h3 mb-3">From physical to digital worlds</h3>
                     <p class="text-md text-gray-400 mb-4">As the world becomes more digital, digital id is an increasingly important question for businesses and individuals alike. Yet as badly as the world needs a simple way to verify identities, it also needs the process to be fast and easy.</p>
                     <p class="text-md text-gray-400">Define and implement the organization’s digital identity future with a focus on modernization, enablement, risk reduction and automation. Integrate or create new enterprise products using your existing decentralized digital id and e-signature infrastructure quick and easily.</p>
-                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="#0">
+                    <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-8" href="https://idntty.notion.site/Management-guides-b22c46bec1564fc08039cda639ad0b6c">
                       <span class="text-sm">Learn more</span>
                       <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 5H0v2h6v4l6-5-6-5z" />

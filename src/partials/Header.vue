@@ -30,7 +30,7 @@
               <router-link to="/network" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Network</router-link>
             </li>
             <li>
-              <router-link to="/blog" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</router-link>
+              <a href="https://idntty.medium.com/" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>
             </li>
           </ul>
 
@@ -62,7 +62,7 @@
                 <router-link to="/network" class="flex text-gray-300 hover:text-gray-200 py-2">Network</router-link>
               </li>
               <li>
-                <router-link to="/blog" class="flex text-gray-300 hover:text-gray-200 py-2">Blog</router-link>
+                <a href="https://idntty.medium.com/" class="flex text-gray-300 hover:text-gray-200 py-2">Blog</a>
               </li>
             </ul>
           </nav>
