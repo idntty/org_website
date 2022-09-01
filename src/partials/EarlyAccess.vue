@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 data-aos="fade-up" class="h2 mb-4">Early Access.</h2>
+          <h2 data-aos="fade-up" class="h2 mb-4">Early Access</h2>
           <p data-aos="fade-up" class="text-xl text-gray-400">While we're testing the infrastructure, launching the app for all of our early users will be free. And after the public launch, in gratitude we will offer unique conditions for early adopters, and for other users - we will try to do everything to make our offer the best on the market.</p>
         </div>
 
@@ -49,7 +49,7 @@
                 </li>
               </ul>
               <div class="border border-gray-700 p-3 mt-6">
-                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="https://airtable.com/shrEtAXpQtyfwP98I">Get free tokens</a>
+                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="/faucet">Get free tokens</a>
               </div>
             </div>
             <div class="relative flex flex-col"></div>

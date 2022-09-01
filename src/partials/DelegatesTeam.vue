@@ -48,14 +48,14 @@
               </div>
               <!-- People pics -->
               <img src="../images/worldmap.png" width="672" height="330" alt="World map">
-              <img class="absolute rounded-full" style="top: 22%;left: 52%;" src="../images/world-user-01.jpg" width="32" height="32" alt="User 01" data-aos="fade-up" />
-              <img class="absolute rounded-full" style="top: 50%;left: 58%;" src="../images/world-user-02.jpg" width="48" height="48" alt="User 02" data-aos="fade-up" data-aos-delay="400" />
-              <img class="absolute rounded-full" style="top: 8.5%;left: 70.5%;" src="../images/world-user-03.jpg" width="56" height="56" alt="User 02" data-aos="fade-up" data-aos-delay="100" />
-              <img class="absolute rounded-full" style="top: 34%;left: 76.5%;" src="../images/world-user-04.jpg" width="72" height="72" alt="User 04" data-aos="fade-up" data-aos-delay="700" />
-              <img class="absolute rounded-full" style="top: 29.5%;left: 8.5%;" src="../images/world-user-05.jpg" width="48" height="48" alt="User 05" data-aos="fade-up" data-aos-delay="500" />
-              <img class="absolute rounded-full" style="top: 56%;left: 19%;" src="../images/world-user-06.jpg" width="56" height="56" alt="User 06" data-aos="fade-up" data-aos-delay="200" />
-              <img class="absolute rounded-full" style="top: 20%;left: 24.5%;" src="../images/world-user-07.jpg" width="64" height="64" alt="User 07" data-aos="fade-up" data-aos-delay="600" />
-              <img class="absolute rounded-full" style="top: 39%;left: 43%;" src="../images/world-user-08.jpg" width="40" height="40" alt="User 08" data-aos="fade-up" data-aos-delay="300" />
+              <img class="absolute rounded-full" style="top: 22%;left: 52%;" src="../images/avatar_01.png" width="32" height="32" alt="avatar 01" data-aos="fade-up" />
+              <img class="absolute rounded-full" style="top: 50%;left: 58%;" src="../images/avatar_02.png" width="48" height="48" alt="avatar 02" data-aos="fade-up" data-aos-delay="400" />
+              <img class="absolute rounded-full" style="top: 8.5%;left: 70.5%;" src="../images/avatar_03.png" width="56" height="56" alt="avatar 02" data-aos="fade-up" data-aos-delay="100" />
+              <img class="absolute rounded-full" style="top: 34%;left: 76.5%;" src="../images/avatar_04.png" width="72" height="72" alt="avatar 04" data-aos="fade-up" data-aos-delay="700" />
+              <img class="absolute rounded-full" style="top: 29.5%;left: 8.5%;" src="../images/avatar_05.png" width="48" height="48" alt="avatar 05" data-aos="fade-up" data-aos-delay="500" />
+              <img class="absolute rounded-full" style="top: 56%;left: 19%;" src="../images/avatar_06.png" width="56" height="56" alt="avatar 06" data-aos="fade-up" data-aos-delay="200" />
+              <img class="absolute rounded-full" style="top: 20%;left: 24.5%;" src="../images/avatar_07.png" width="64" height="64" alt="avatar 07" data-aos="fade-up" data-aos-delay="600" />
+              <img class="absolute rounded-full" style="top: 39%;left: 43%;" src="../images/avatar_08.png" width="40" height="40" alt="avatar 08" data-aos="fade-up" data-aos-delay="300" />
             </div>
           </div>
 
@@ -112,9 +112,9 @@
 </template>
 
 <script>
-import Image01 from '../images/world-user-01.jpg'
-import Image02 from '../images/world-user-02.jpg'
-import Image03 from '../images/world-user-03.jpg'
+import Image01 from '../images/avatar_01.png'
+import Image02 from '../images/avatar_02.png'
+import Image03 from '../images/avatar_03.png'
 
 export default {
   name: 'DelegatesTeam',
@@ -127,23 +127,23 @@ export default {
         {
           img: Image01,
           alt: 'Testimonial 01',
-          quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
-          name: 'Darya Semenova',
-          role: 'Backend Developer'
+          quote: '“ I don`t really understand why I need it, but I decided to make myself a digital ID, because once upon a time nobody believed in Bitcoin either “',
+          name: 'Some anonymous user',
+          role: 'Feedback form'
         },
         {
           img: Image02,
           alt: 'Testimonial 02',
-          quote: '“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“',
-          name: 'Greg Sebastian',
-          role: 'Head of Design'
+          quote: '“ Oh, an interesting twist on the intersection of non-transferrable NFT and generative art in the avatar “',
+          name: 'Thunder54',
+          role: 'Discord chat'
         },
         {
           img: Image03,
           alt: 'Testimonial 03',
-          quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
-          name: 'Dominik Prasad',
-          role: 'Backend Lead'
+          quote: '“ О! To deploy a node - just a simple cloud server for $5-10, 30 minutes of time and the ability to read the documentation “',
+          name: 'Backend developer',
+          role: 'Shardul Puneker'
         }
       ]
     }
