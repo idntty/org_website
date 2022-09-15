@@ -67,20 +67,6 @@ export default {
           tags: ['E Sign'],
           descpiption: 'There is a rather famous quote “If you want to hide something, put it in the most prominent place” — approximately the same approach we use to store private data in the public infrastructure based on blockchain technology. We would like to explain why and most importantly why we want…'
         }
-        // {
-        //   title: 'Building identity and public key infrastructure',
-        //   link: 'https://medium.com/@idntty/building-identity-and-public-key-infrastructure-ad10800316db',
-        //   image: 'https://miro.medium.com/max/700/1*5LcQFlt-hixd1xE9eFVG4g.png',
-        //   tags: ['Digital Id'],
-        //   descpiption: 'eSignatures and digital IDs are already used everywhere. Moreover, even most states have supported the use of digital signatures at the legislative level. In short, it’s hard enough to come up with something for an industry that’s more than a year old. Nevertheless, once you come across the current solutions —…'
-        // }
-        // {
-        //   title: '',
-        //   link: '',
-        //   image: '',
-        //   tags: [''],
-        //   descpiption: ''
-        // }
       ]
     }
   }
