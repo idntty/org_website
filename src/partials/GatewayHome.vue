@@ -46,8 +46,8 @@
             <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-4 mb-8 md:mb-0" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
               <div class="flex flex-col items-center">
                 <img class="pb-8" src="../images/home-gateway-app.png" alt="Gateway illustration" />
-                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700" href="https://idntty.io">
-                    <span class="text-sm">Get it</span>
+                <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700" href=" https://airtable.com/shrEtAXpQtyfwP98I">
+                    <span class="text-sm">Early Access</span>
                     <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>

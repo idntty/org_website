@@ -32,9 +32,6 @@
             <li>
               <a href="https://idntty.medium.com/" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</a>
             </li>
-            <li>
-              <a href="http://testnet.idntty.org/faucet/" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Faucet</a>
-            </li>
           </ul>
 
           <!--  -->
@@ -66,9 +63,6 @@
               </li>
               <li>
                 <a href="https://idntty.medium.com/" class="flex text-gray-300 hover:text-gray-200 py-2">Blog</a>
-              </li>
-              <li>
-                <a href="http://testnet.idntty.org/faucet/" class="flex text-gray-300 hover:text-gray-200 py-2">Faucet</a>
               </li>
             </ul>
           </nav>

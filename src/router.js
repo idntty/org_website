@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './pages/Home.vue'
-import Faucet from './pages/Faucet.vue'
 import UseCases from './pages/UseCases.vue'
 import Network from './pages/Network.vue'
 import PageNotFound from './pages/PageNotFound.vue'
@@ -30,10 +29,6 @@ const router = createRouter({
     {
       path: '/network',
       component: Network
-    },
-    {
-      path: '/faucet',
-      component: Faucet
     },
     {
       path: '/:pathMatch(.*)*',

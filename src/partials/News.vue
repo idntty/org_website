@@ -47,6 +47,13 @@ export default {
     return {
       posts: [
         {
+          title: 'Why are we launching a testnet',
+          link: 'https://idntty.medium.com/60b34387d231',
+          image: 'https://miro.medium.com/max/600/1*NPBK8kJG_kdrclFPxMCFug.png',
+          tags: ['Infrastructure'],
+          descpiption: 'Any complex product can be developed and tested ad infinitum. That`s the essence of creating products, any products at all. But at some point in time, you have to stop doing this only with your team and show it publicly to get feedback and understand where you`re right and where you need to redo something again. That`s exactly the plan we have.'
+        },
+        {
           title: 'Cross-border transactions and data notary',
           link: 'https://medium.com/coinmonks/cross-border-transactions-and-data-notary-68829d192128',
           image: 'https://miro.medium.com/max/600/1*f4XgDBcuUDdCOF12dZG4uA.png',
@@ -54,19 +61,19 @@ export default {
           descpiption: 'When we talk about electronic signatures, very often the question arises for some important documents, not just to confirm its authenticity and validity by signature, but also to notarize the fact of signing the document itself. Such a fact is usually registered by notaries, but what to do if all…'
         },
         {
-          title: 'How to democratize e-signature using blockchain technology.',
+          title: 'How to democratize e-signature using blockchain technology',
           link: 'https://medium.com/@idntty/how-to-democratize-e-signature-using-blockchain-technology-a7798c8c29e5',
           image: 'https://miro.medium.com/max/700/1*z9FtbphiNaBT7SUMs-IcYg.png',
           tags: ['E Sign'],
           descpiption: 'There is a rather famous quote “If you want to hide something, put it in the most prominent place” — approximately the same approach we use to store private data in the public infrastructure based on blockchain technology. We would like to explain why and most importantly why we want…'
-        },
-        {
-          title: 'Building identity and public key infrastructure',
-          link: 'https://medium.com/@idntty/building-identity-and-public-key-infrastructure-ad10800316db',
-          image: 'https://miro.medium.com/max/700/1*5LcQFlt-hixd1xE9eFVG4g.png',
-          tags: ['Digital Id'],
-          descpiption: 'eSignatures and digital IDs are already used everywhere. Moreover, even most states have supported the use of digital signatures at the legislative level. In short, it’s hard enough to come up with something for an industry that’s more than a year old. Nevertheless, once you come across the current solutions —…'
         }
+        // {
+        //   title: 'Building identity and public key infrastructure',
+        //   link: 'https://medium.com/@idntty/building-identity-and-public-key-infrastructure-ad10800316db',
+        //   image: 'https://miro.medium.com/max/700/1*5LcQFlt-hixd1xE9eFVG4g.png',
+        //   tags: ['Digital Id'],
+        //   descpiption: 'eSignatures and digital IDs are already used everywhere. Moreover, even most states have supported the use of digital signatures at the legislative level. In short, it’s hard enough to come up with something for an industry that’s more than a year old. Nevertheless, once you come across the current solutions —…'
+        // }
         // {
         //   title: '',
         //   link: '',

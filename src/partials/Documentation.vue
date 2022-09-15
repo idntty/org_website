@@ -13,7 +13,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-career]">
             <div class="pb-6 border-b border-gray-800">
               <div class="mb-2">
-                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://github.com/idntty/core/wiki/How-to-setup-a-node" target="_blank">
                   <span>How to setup a node</span>
                   <svg class="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                     <g stroke-width="2" fill="none">
@@ -60,7 +60,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-career]">
             <div class="pb-6 border-b border-gray-800">
               <div class="mb-2">
-                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://github.com/idntty/core/wiki/How-to-become-the-delegate" target="_blank">
                   <span>How to become the delegate </span>
                   <svg class="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                     <g stroke-width="2" fill="none">
@@ -106,7 +106,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-career]">
             <div class="pb-6 border-b border-gray-800">
               <div class="mb-2">
-                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                <a class="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://github.com/idntty/core/wiki/How-to-interact-with-idntty-blockchain" target="_blank">
                   <span>How to interact with idntty blockchain</span>
                   <svg class="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                     <g stroke-width="2" fill="none">
